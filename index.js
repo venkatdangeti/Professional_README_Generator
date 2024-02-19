@@ -54,3 +54,25 @@ const questions = [
     message: "Please enter test instructions for your project.",
   },
 ];
+
+// function to write readme using generateMarkdown module
+function writeToFile(fileName, data) {
+  fs.writeFile(fileName, generateMarkdown(data), function (err) {
+    if (err) {
+      return console.log(err);
+    }
+    console.log("Success!");
+  });
+}
+9;
+
+// function that initializes app
+function init() {
+  inquirer.prompt(questions).then(function (response) {
+    console.log(response);
+    writeToFile(`${response.title}.md`, response);
+  });
+}
+
+// Function call to initialize app
+init();
