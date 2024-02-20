@@ -1,20 +1,24 @@
 # Professional README Generator
-  
- 
+
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
-  
+
 ## Description
-* This application was created to generate a high-quality, professional README depending on a series of questions a user answers in their command line using Node.js.
- 
-  
-## Table of Contents  
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [License](#license)
-  * [Contributing](#contributing)
-  * [Tests](#tests)
-  * [Questions](#questions)
- 
+
+- This application was created to generate a high-quality, professional README depending on a series of questions a user answers in their command line using Node.js.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+
+## Full Walkthrough Video
+
+- [Click link to watch the video](https://drive.google.com/file/d/1X7B6TjNBYxrQ3hor7MBN25HIsbTBykr4/view?usp=drive_link)
+
  <a name="installation"/>
  
  ## Installation
@@ -37,7 +41,7 @@
  
  ## Contributing
  
- * Contributors should reasd the installation section.
+ * Contributors should read the installation section.
  
  
  <a name="tests"/>
@@ -52,6 +56,4 @@
  
  * For additional help or questions about collaboration, please reach out to dangeti.venkat@gmail.com
 
- * Follow me on Github at [venkatdangeti](http://github.com/venkatdangeti)
- 
-
+- Follow me on Github at [venkatdangeti](http://github.com/venkatdangeti)
