@@ -13,13 +13,7 @@ const questions = [
 
   {
     type: "input",
-    name: "Sections entitled",
-    message: "Please enter the Sections entitled.",
-  },
-
-  {
-    type: "input",
-    name: "Description",
+    name: "description",
     message: "Please enter the Description of your project.",
   },
 
@@ -50,8 +44,19 @@ const questions = [
 
   {
     type: "input",
-    name: "testing",
+    name: "tests",
     message: "Please enter test instructions for your project.",
+  },
+  {
+    type: "input",
+    name: "email",
+    message: "Enter your email account",
+  },
+
+  {
+    type: "input",
+    name: "github",
+    message: "Enter your github username",
   },
 ];
 
@@ -70,7 +75,9 @@ function writeToFile(fileName, data) {
 function init() {
   inquirer.prompt(questions).then(function (response) {
     console.log(response);
-    writeToFile(`${response.title}.md`, response);
+    // writeToFile("README.md", response);
+    writeToFile("README.md", response);
+    console.log(" README.md has been created!");
   });
 }
 
